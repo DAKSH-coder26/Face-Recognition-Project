@@ -4,7 +4,7 @@ from Recognition import recognize
 n = int(input("How many faces do you want to register?"))
 data = {}
 for i in range(n):
-    id = input("Enter id ")
+    id = i
     name = input("Enter name ")
     create_data(id,name)
     data[id] = name
